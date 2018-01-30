@@ -1,0 +1,75 @@
+.content .notice_title{
+	font-size: 16px;
+	color: #000000;
+	margin: 0;
+	height: 60px;
+	line-height: 60px;
+	padding: 0 37px;
+	border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+.notice_list{
+	padding: 0 37px;
+}
+
+.notice_list li{
+	list-style: none;
+	font-size: 14px;
+	color: #000000;
+	line-height: 50px;
+	height: 50px;
+	overflow: hidden;
+	border-bottom: 1px solid rgba(0,0,0,0.1);
+	cursor: pointer;
+}
+.notice_list li a{
+	text-decoration: none;
+	color: #0F9BEB;
+}
+span.newstime{
+	float: right;
+}
+
+
+.pageList{
+	width: 300px;
+	height: 100%;
+	margin: 25px auto;
+}
+
+.pageList a {
+    height: 30px;
+    line-height: 30px;
+    padding: 0 10px;
+    border: 1px solid rgba(0,0,0,0.06);
+    display: block;
+    float: left;
+    font-size: 14px;
+    color: rgba(0,0,0,0.45);
+    border-right: 0;
+    transition: all .3s;
+    text-decoration: none;
+}
+.pageList a:first-child {
+	background-image: url(../img/right_arrow.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 6px 10px;
+    border-radius: 5px 0 0 5px;
+}
+.pageList a:last-child{
+	background-image: url(../img/left_arrow.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 6px 10px;
+	border-radius: 0 5px 5px 0;
+	border-right: 1px solid rgba(0,0,0,0.06);
+}
+.pageList a:active, .pageList .active {
+    background: #FFFFFF;
+    color: #000000;
+}
+
+img.notice_list_icon {
+    width: 16px;
+    vertical-align: middle;
+}
